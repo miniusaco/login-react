@@ -1,4 +1,55 @@
-.App {
-  font-family: sans-serif;
+body {
+  background: rgb(255, 203, 225);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 203, 225, 1) 0%,
+    rgba(195, 222, 254, 1) 100%
+  );
+  overflow-y: hidden;
+}
+
+.formContainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
   text-align: center;
+}
+
+.formContainer form {
+  background-color: #fafafa;
+  width: 70%;
+  max-width: 450px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 222, 222);
+  box-shadow: 10px 10px 50px -15px #bdbdbd;
+}
+
+.uiForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formField input {
+  border: solid 1px #ccc;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.formField input:focus {
+  outline: none;
 }
