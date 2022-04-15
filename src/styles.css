@@ -53,3 +53,38 @@ h1 {
 .formField input:focus {
   outline: none;
 }
+
+.formField label {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+button {
+  background-color: rgb(197, 79, 197);
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: rgb(119, 42, 119);
+}
+
+.errorMsg {
+  color: #d45555;
+  margin: 0 0 16px 0;
+  align-self: flex-start;
+  font-size: 14px;
+}
+
+.msgOk {
+  color: rgb(128, 240, 128);
+  margin-top: 15px;
+}
